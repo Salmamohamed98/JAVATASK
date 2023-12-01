@@ -18,20 +18,20 @@
            <h1>Registration</h1>
 	    <div class ="  form-group ">
 	    
-	    <input type="text" class="form-control" id="name" placeholder="User Name">
+	    <input type="text" class="form-control" id="name" placeholder="User Name" name="name">
 	    <small class="text-form text-muted" style="color: red;visibility: false" id="nerr"> field shouldn't be empty</small>
 	    </div>
 	    
 	    <div class ="form-group">
 	    
-	    <input type="email" class="form-control" id="email" placeholder="Email">
+	    <input type="email" class="form-control" id="email" placeholder="Email" name="email">
 	    	    <small class="text-form text-muted" style="color: red;visibility: false" id="merr"> field shouldn't be empty</small>
 	    
 	    </div>
 	    
 	    <div class ="form-group">
 	    <label>Password</label>
-	    <input type="password" class="form-control" placeholder="Password">
+	    <input type="password" class="form-control" placeholder="Password" name="password">
 	    <small class="text-form text-muted" style="color: red;visibility: false" id="perr"> field shouldn't be empty</small>
 	    
 	    </div>
