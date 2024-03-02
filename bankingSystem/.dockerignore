@@ -1,0 +1,12 @@
+
+# Compiled output
+/target
+/tmp
+/out-tsc
+/bazel-out
+
+# IDEs and editors
+.idea/
+
+.classpath
+.settings/
