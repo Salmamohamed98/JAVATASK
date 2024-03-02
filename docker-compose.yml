@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+    backend:
+        image: spring
+        container_name: testDocker
+        build:
+            context: ./testDocker
+        ports:
+            - "9000:8080"
+    frontend:
+        image: angular
+        container_name: testMultibleModule
+        build:
+            context: ./testMultibleModule
+        ports:
+            - "4200:80"
+        depends_on: 
+            - backend
